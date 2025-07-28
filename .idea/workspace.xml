@@ -4,16 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e5943a9-fcbf-48e3-b1e0-de08657263eb" name="Changes" comment="" />
+    <list default="true" id="9e5943a9-fcbf-48e3-b1e0-de08657263eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionOne/AbstractBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionOne/AbstractTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionOne/Algorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionOne/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionOne/LinkedBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionOne/LinkedQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionOne/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionOne/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionOne/SinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionOne/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionThree/AbstractPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionThree/DefaultComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionThree/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionThree/HeapPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionThree/PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionTwo/AbstractBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionTwo/AbstractTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionTwo/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionTwo/HPAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionTwo/LinkedBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionTwo/LinkedQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionTwo/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionTwo/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionTwo/SinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionTwo/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="30AD9tJPfZt5GEIDB8nwVGMqfTL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,11 +58,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Algorithm.executor": "Run",
+    "Application.HPAlgorithm.executor": "Run",
+    "Application.HeapPriorityQueue.executor": "Run",
+    "Application.LinkedBinaryTree.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/SummerComp254/AaronSampson_Comp254Lab5/src/main/java/QuestionTwo",
     "onboarding.tips.debug.path": "C:/SummerComp254/AaronSampson_Comp254Lab5/src/main/java/org/example/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\SummerComp254\AaronSampson_Comp254Lab5\src\main\java\QuestionTwo" />
+      <recent name="C:\SummerComp254\AaronSampson_Comp254Lab5\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="QuestionThree" />
+    </key>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9e5943a9-fcbf-48e3-b1e0-de08657263eb" name="Changes" comment="" />
