@@ -2,16 +2,19 @@ package QuestionTwo;
 
 public class HPAlgorithm {
 
+    //Perform post-order traversal that compute height of each subtree and prints the element followed by the height
     /** Post‑order: print element and subtree height; return that height. */
     public static <E> int heightPrint(BinaryTree<E> T, Position<E> p){
-        //Begin with -1 so adding 1 makes the leafs height 0
-        int maxChild = -1;
-        //Process children first
-        for(Position<E> c : T.children(p))
-            maxChild = Math.max(maxChild, heightPrint(T, c));
-        //Height of node is 1 + tallest child
-        int height = maxChild +1;
 
+        int maxC = -1;          //tallest child
+
+        //Recursive post-order... we process each child befor parent.
+        for(Position<E> c : T.children(p))
+            maxC = Math.max(maxC, heightPrint(T, c));
+
+        int height = maxC +1;           //height of current subtree
+
+        //Output  element and subtree height
         System.out.println(p.getElement() + " " + height);
         return height;
     }
@@ -26,6 +29,7 @@ public class HPAlgorithm {
         Position<String> f = t.addLeft(e,"F");
         Position<String> g = t.addRight(e, "G");
 
+        //Print each element with its subtree height.
         heightPrint(t,a);
 
     }

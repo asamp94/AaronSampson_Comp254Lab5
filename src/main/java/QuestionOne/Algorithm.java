@@ -1,34 +1,29 @@
 package QuestionOne;
 
 public class Algorithm {
-    public static <E> Position<E> preorderNext(BinaryTree<E> t, Position<E> p){
-        //Check left child
-        //If p is an internal node(atleast 1 child), check if it has a left child
-        if (t.isInternal(p)) {
-            //Return the left child if exists
-            Position<E> l = t.left(p);
-            if(l != null) return l;
-        }
-
-        //Climb up to find Right Sibling
-        Position<E> current = p;
-        Position<E> parent = t.parent(current);
-
-        //Check if current node is left child of its parent and if parent has right child.
-        //If yes, the right child is the next node in the preorder.
-        while (parent!= null){
-            // If current is left child and right sibling exists, return it
-            if(t.left(parent) == current) {
-                Position<E> r = t.right(parent);
-                if (r != null) return r;
+    //preorderNext finds the node that comes after a goven position in a preorder traversal
+    public static <E> Position<E> preorderNext(BinaryTree<E> t, Position<E> v) {
+        //If v has children, then left child is next in preorder
+        if (t.isInternal(v)) {
+            return t.left(v);
+        } else {
+            //Else walk up until we go right
+            Position<E> p = t.parent(v);
+            //If v was root, there isn't a next node
+            if (p == null) return null;
+            // If v was left child of p, ps right is nexy
+            if (t.left(p) == v) {
+                return t.right(p);
+            } else {
+                //Else, v was a right child and we climb until we come up from left
+                while (p != null && t.left(p) != v) {
+                    v = p;
+                    p = t.parent(v);
+                }
+                //No next if we've climbed past root. return p's richt child
+                return (p == null ? null : t.right(p));
             }
-            //Move Upward
-            current = parent;
-            parent = t.parent(current);
         }
-
-        return null; //No next node in preorder
-        //If we go all the way up to the root and find no right child, it means we were at the last node in preorder.
     }
 
     public static void main(String[] args) {
